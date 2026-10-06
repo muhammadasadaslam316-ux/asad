@@ -36,3 +36,31 @@
     transform: rotate(360deg);
   }
 }
+body,
+#root {
+  min-height: 100vh;
+  background-color: #000;
+  color: #fff;
+}
+
+.navbar.bg-body-tertiary {
+  background-color: #000 !important;
+}
+
+.navbar,
+.navbar-brand,
+.nav-link,
+a {
+  color: #fff !important;
+}
+
+.form-control,
+.btn {
+  background-color: #111;
+  color: #fff;
+  border: 1px solid #777;
+}
+
+.form-control::placeholder {
+  color: #bbb;
+}
